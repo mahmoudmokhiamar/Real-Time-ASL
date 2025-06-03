@@ -1,2 +1,6 @@
 realtime/my_env
 realtime/my_env/*
+realtime/test/output_landmarks.parquet
+realtime/test/videoplayback.mp4
+realtime/test/*.mp4
+.DS_Store
