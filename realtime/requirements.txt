@@ -1,0 +1,8 @@
+mediapipe
+fastparquet
+pyarrow
+# tflite-runtime
+pandas
+numpy
+opencv-python
+# tensorflow==2.12.0

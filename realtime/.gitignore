@@ -1,0 +1,8 @@
+*.parquet
+*.csv
+*.zip
+.DS_Store
+.DS_Store
+output_landmarks.parquet
+.DS_Store
+videoplayback.mp4
