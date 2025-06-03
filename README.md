@@ -22,7 +22,7 @@ python run_realtime.py
 
 | File                                  | Purpose                                      |
 |---------------------------------------|----------------------------------------------|
-| `run_realtime.py`                     | Main script for live landmark capture        |
+| `./test/t4.py`                     | Main script for live landmark capture        |
 | `output_landmarks.parquet`            | Saved landmark sequences                     |
 | `test/model.tflite`                   | Exported TensorFlow Lite model               |
 | `test/inference_args.json`            | Required input features for the model        |
