@@ -12,7 +12,7 @@ This module enables real-time ASL sign recognition using [MediaPipe Holistic](ht
 ### 🎥 How to Run
 
 ```
-python run_realtime.py
+python /test/t4.py
 ```
 
 - Input: `query_combined.mp4` (can be replaced with webcam).
