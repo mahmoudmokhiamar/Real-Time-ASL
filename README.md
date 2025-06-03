@@ -12,7 +12,7 @@ This module enables real-time ASL sign recognition using [MediaPipe Holistic](ht
 ### 🎥 How to Run
 
 ```
-python /test/t4.py
+python realtime/test/t4.py
 ```
 
 - Input: `query_combined.mp4` (can be replaced with webcam).
@@ -22,11 +22,11 @@ python /test/t4.py
 
 | File                                  | Purpose                                      |
 |---------------------------------------|----------------------------------------------|
-| `./test/t4.py`                     | Main script for live landmark capture        |
-| `output_landmarks.parquet`            | Saved landmark sequences                     |
-| `test/model.tflite`                   | Exported TensorFlow Lite model               |
-| `test/inference_args.json`            | Required input features for the model        |
-| `test/character_to_prediction_index.json` | Mapping from model outputs to characters |
+| `realtime/test/t4.py`                     | Main script for live landmark capture        |
+| `realtime/test/output_landmarks.parquet`            | Saved landmark sequences                     |
+| `realtime/test/model.tflite`                   | Exported TensorFlow Lite model               |
+| `realtime/test/inference_args.json`            | Required input features for the model        |
+| `realtime/test/character_to_prediction_index.json` | Mapping from model outputs to characters |
 
 ### 🔍 How It Works
 
