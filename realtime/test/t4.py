@@ -203,8 +203,7 @@ def get_str() -> str:
     )
     if prediction_str == "2 a-e -aroe":
         prediction_str = ""
-    elif prediction_str == "talk to me" or "talktome" in prediction_str:
-        prediction_str = "Q: talk to me, A: Hello User, I am ASL GPT"
+        
     return prediction_str
 
 
